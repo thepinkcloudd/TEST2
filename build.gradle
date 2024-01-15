@@ -20,4 +20,5 @@ test {
 }
 application {
     mainClass = 'com.thepinkclouddAndDenislam511.Main'
+    applicationDefaultJvmArgs = ['-Dfile.encoding=Cp1251']
 }
