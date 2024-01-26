@@ -3,10 +3,9 @@ package com.thepinkclouddAndDenislam511.Window;
 import javax.swing.*;
 
 public class CalculatorElements {
-    public static JLabel inputSum, inputPercentage, creditTerm, monthlyPayment,
-            creditAmount, creditOverpayment, creditTotal;
+    public static JLabel inputSum, inputPercentage, creditTerm, monthlyPayment, creditOverpayment, creditTotal;
     public static JTextField inputSumField, inputPercentageField, inputCreditTermField,
-            monthlyPayment_text,creditAmount_text, creditOverpayment_text, creditTotal_text;
+            monthlyPayment_text, creditOverpayment_text, creditTotal_text;
     public static JButton submitButton, exitButton;
 
     public static void initializeElements(){
@@ -18,8 +17,6 @@ public class CalculatorElements {
         creditTerm.setHorizontalAlignment(JLabel.CENTER);
         monthlyPayment = new JLabel("\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u043F\u043B\u0430\u0442\u0435\u0436");
         monthlyPayment.setHorizontalAlignment(JLabel.CENTER);
-        creditAmount = new JLabel("\u0421\u0443\u043C\u043C\u0430 \u043A\u0440\u0435\u0434\u0438\u0442\u0430");
-        creditAmount.setHorizontalAlignment(JLabel.CENTER);
         creditOverpayment = new JLabel("\u041F\u0435\u0440\u0435\u043F\u043B\u0430\u0442\u0430");
         creditOverpayment.setHorizontalAlignment(JLabel.CENTER);
         creditTotal = new JLabel("\u041E\u0431\u0449\u0430\u044F \u0441\u0443\u043C\u043C\u0430 \u0437\u0430\u0439\u043C\u0430");
@@ -31,8 +28,6 @@ public class CalculatorElements {
 
         monthlyPayment_text = new JTextField("0 \u0440\u0443\u0431.",2);
         monthlyPayment_text.setFocusable(false);
-        creditAmount_text = new JTextField("0 \u0440\u0443\u0431.",2);
-        creditAmount_text.setFocusable(false);
         creditOverpayment_text = new JTextField("0 \u0440\u0443\u0431.",2);
         creditOverpayment_text.setFocusable(false);
         creditTotal_text = new JTextField("0 \u0440\u0443\u0431.",2);
